@@ -18,6 +18,6 @@ function currentLine(line){
   for (i = 0; i < line.length; i++){
     } else if (line.length > 0){
       return `The line is currently ${line[i]}. ${line},`
-    }  
+    }
   }
 }
