@@ -13,7 +13,7 @@ if(line.length > 0){
 
 function currentLine(line){
   var i;
-  var NumbersAndNames;
+  var NumbersAndNames = [];
   
   for (i = 0; i < line.length; i++){
     if (line.length === 0){
