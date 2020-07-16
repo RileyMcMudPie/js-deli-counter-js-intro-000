@@ -19,7 +19,7 @@ function currentLine(line){
     if (line.length === 0){
       return 'The line is currently empty.'
     } else if (line.length > 0){
-      numbersAndNames.push(`${i + 1}. ${line})
+      numbersAndNames.push(`${i + 1}. ${line}`)
       return `The line is currently ${numbersAndNames}`,
     }
   }
